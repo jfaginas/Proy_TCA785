@@ -1,0 +1,387 @@
+# EESchema Netlist Version 1.1 created  18/09/2015 11:59:25
+(
+ ( /55FC1C91 CP6 C1 0,22uF_x_250V
+  ( 1 N-000034 )
+  ( 2 N-000033 )
+ )
+ ( /55FC1C95 CP6 C2 0,22uF_x_250V
+  ( 1 N-000033 )
+  ( 2 N-000036 )
+ )
+ ( /55FBFB59 C1V7 C3 470uF
+  ( 1 N-000040 )
+  ( 2 GND )
+ )
+ ( /55FBFB52 C1 C4 100nF
+  ( 1 N-000040 )
+  ( 2 GND )
+ )
+ ( /55FC0985 C1 C5 100nF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /55FBFB78 C1V5 C6 1uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /55FBFC03 C1 C7 100nF
+  ( 1 N-000026 )
+  ( 2 GND )
+ )
+ ( /55FBFC00 C1 C8 100nF
+  ( 1 N-000026 )
+  ( 2 GND )
+ )
+ ( /55FBFB5F C1 C9 150pF
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /55FBFB44 D5 D1 1N4007
+  ( 1 N-000003 )
+  ( 2 N-000028 )
+ )
+ ( /55FBFB48 D5 D2 1N4007
+  ( 1 N-000038 )
+  ( 2 N-000028 )
+ )
+ ( /55FC1C9A D3 D3 1N4148
+  ( 1 N-000034 )
+  ( 2 N-000032 )
+ )
+ ( /55FC1C9F D3 D4 1N4148
+  ( 1 N-000036 )
+  ( 2 N-000031 )
+ )
+ ( /55FC0ACC D3 D5 1N4148
+  ( 1 GND )
+  ( 2 N-000039 )
+ )
+ ( /55FC0AD1 D3 D6 1N4148
+  ( 1 N-000039 )
+  ( 2 GND )
+ )
+ ( /55FBFB65 D5 D7 1N4004
+  ( 1 +12V )
+  ( 2 N-000040 )
+ )
+ ( /55FC0977 D3 D8 1N4148
+  ( 1 GND )
+  ( 2 N-000030 )
+ )
+ ( /55FBFC1C D3 D9 1N4148
+  ( 1 GND )
+  ( 2 N-000029 )
+ )
+ ( /55FC0979 D3 D10 1N4148
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /55FBFB81 D3 D11 1N4148
+  ( 1 N-000023 )
+  ( 2 N-000001 )
+ )
+ ( /55FBFB3E FUSE5-20 F1 FUSE
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /55FC09CF bornier3 K1 Alim
+  ( 1 N-000011 )
+  ( 2 N-000038 )
+  ( 3 N-000003 )
+ )
+ ( /55FC1C49 bornier3 K2 OUT_SIG_TR
+  ( 1 N-000005 )
+  ( 2 N-000033 )
+  ( 3 N-000004 )
+ )
+ ( /55FC1C4E bornier3 K3 OUT_THY
+  ( 1 N-000032 )
+  ( 2 N-000033 )
+  ( 3 N-000031 )
+ )
+ ( /55FC0DA8 bornier3 K4 POTE
+  ( 1 N-000022 )
+  ( 2 GND )
+  ( 3 N-000035 )
+ )
+ ( /55FC0A48 bornier2 K5 IN_SIG_TR
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /55FC0976 TO92-123 Q1 MPSA63
+  ( 1 +12V )
+  ( 2 N-000021 )
+  ( 3 N-000030 )
+ )
+ ( /55FBFE01 TO92-123 Q2 MPSA63
+  ( 1 +12V )
+  ( 2 N-000027 )
+  ( 3 N-000029 )
+ )
+ ( /55FC1C55 R3 R1 3,3
+  ( 1 N-000004 )
+  ( 2 N-000034 )
+ )
+ ( /55FC1C5A R3 R2 3,3
+  ( 1 N-000005 )
+  ( 2 N-000036 )
+ )
+ ( /55FC0ADC R3 R3 1K5
+  ( 1 N-000038 )
+  ( 2 N-000039 )
+ )
+ ( /55FBFB4D R3 R4 10
+  ( 1 N-000028 )
+  ( 2 N-000040 )
+ )
+ ( /55FC1CA5 R3 R5 2K2
+  ( 1 N-000032 )
+  ( 2 N-000033 )
+ )
+ ( /55FC1CA9 R3 R6 2K2
+  ( 1 N-000033 )
+  ( 2 N-000031 )
+ )
+ ( /55FBFB85 R3 R7 27K
+  ( 1 N-000025 )
+  ( 2 N-000024 )
+ )
+ ( /55FBFC0A R3 R8 2K2
+  ( 1 N-000018 )
+  ( 2 N-000037 )
+ )
+ ( /55FC0978 R3 R9 15K
+  ( 1 /~Q1 )
+  ( 2 N-000021 )
+ )
+ ( /55FBFC16 R3 R10 15K
+  ( 1 /~Q2 )
+  ( 2 N-000027 )
+ )
+ ( /55FC097A R3 R11 39
+  ( 1 N-000030 )
+  ( 2 N-000002 )
+ )
+ ( /55FBFAD6 R3 R12 39
+  ( 1 N-000029 )
+  ( 2 N-000023 )
+ )
+ ( /55FC0A6C RV2 RV1 10K
+  ( 1 N-000024 )
+  ( 2 GND )
+  ( 3 GND )
+ )
+ ( /55FBFB71 LM78XX U1 LM7812
+  ( GND GND )
+  ( VI N-000040 )
+  ( VO +12V )
+ )
+ ( /55FBFA97 DIP-16__300_ELL U2 TCA785
+  ( 1 GND )
+  ( 2 /~Q2 )
+  ( 3 ? )
+  ( 4 /~Q1 )
+  ( 5 N-000039 )
+  ( 6 +12V )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 N-000025 )
+  ( 10 N-000026 )
+  ( 11 N-000018 )
+  ( 12 N-000017 )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 +12V )
+ )
+ ( /55FC2148 DIP-8__300_ELL U3 LM358
+  ( 1 N-000037 )
+  ( 2 N-000037 )
+  ( 3 N-000035 )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 +12V )
+ )
+ ( /55FBFB95 LM78XX-TO92 U4 78L05
+  ( GND GND )
+  ( VI +12V )
+  ( VO N-000022 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

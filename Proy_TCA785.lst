@@ -1,0 +1,99 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 18/09/2015 11:44:47
+
+#Componentes ( orden = Referencia )
+| C1         0,22uF x 250V
+| C2         0,22uF x 250V
+| C3         470uF       
+| C4         100nF       
+| C5         100nF       
+| C6         1uF         
+| C7         100nF       
+| C8         100nF       
+| C9         150pF       
+| D1         DIODE       
+| D2         DIODE       
+| D3         1N4148      
+| D4         1N4148      
+| D5         1N4148      
+| D6         1N4148      
+| D7         1N4004      
+| D8         1N4148      
+| D9         1N4148      
+| D10        1N4148      
+| D11        1N4148      
+| F1         FUSE        
+| K1         Alim        
+| K2         OUT_SIG_TR  
+| K3         OUT_THY     
+| K4         POTE        
+| K5         IN_SIG_TR   
+| Q1         MPSA63      
+| Q2         MPSA63      
+| R1         3,3         
+| R2         3,3         
+| R3         1K5         
+| R4         10          
+| R5         2K2         
+| R6         2K2         
+| R7         27K         
+| R8         2K2         
+| R9         15K         
+| R10        15K         
+| R11        39          
+| R12        39          
+| RV1        10K         
+| U1         LM7812      
+| U2         TCA785      
+| U3         LM358       
+| U4         78L05       
+#Fin Componentes
+
+#Componentes ( orden = Valor )
+| 0,22uF x 250V C1        
+| 0,22uF x 250V C2        
+| 10           R4        
+| 100nF        C4        
+| 100nF        C5        
+| 100nF        C7        
+| 100nF        C8        
+| 10K          RV1       
+| 150pF        C9        
+| 15K          R9        
+| 15K          R10       
+| 1K5          R3        
+| 1N4004       D7        
+| 1N4148       D3        
+| 1N4148       D4        
+| 1N4148       D5        
+| 1N4148       D6        
+| 1N4148       D8        
+| 1N4148       D9        
+| 1N4148       D10       
+| 1N4148       D11       
+| 1uF          C6        
+| 27K          R7        
+| 2K2          R5        
+| 2K2          R6        
+| 2K2          R8        
+| 3,3          R1        
+| 3,3          R2        
+| 39           R11       
+| 39           R12       
+| 470uF        C3        
+| 78L05        U4        
+| Alim         K1        
+| DIODE        D1        
+| DIODE        D2        
+| FUSE         F1        
+| IN_SIG_TR    K5        
+| LM358        U3        
+| LM7812       U1        
+| MPSA63       Q1        
+| MPSA63       Q2        
+| OUT_SIG_TR   K2        
+| OUT_THY      K3        
+| POTE         K4        
+| TCA785       U2        
+#Fin Componentes
+
+#Fin de Lista
